@@ -12,6 +12,7 @@ import { AboutComponent } from './components/about/about.component';
 import { CardComponent } from './components/card/card.component';
 import { ForecastComponent } from './components/forecast/forecast.component';
 import { CounterComponent } from './components/counter/counter.component';
+import { CustomerComponent } from './components/customer/customer.component';
 
 @NgModule({
   declarations: [
@@ -23,6 +24,7 @@ import { CounterComponent } from './components/counter/counter.component';
     CardComponent,
     ForecastComponent,
     CounterComponent,
+    CustomerComponent,
   ],
   imports: [
     BrowserModule,

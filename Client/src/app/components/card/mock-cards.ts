@@ -4,19 +4,19 @@ export const CARDS: Card[] = [
   {
     id: 1,
     title: 'Weather Forecast API',
-    text: "Some quick example text to build on the card title and make up the bulk of the card's content.",
+    text: "Component example fetching weather forecast data from the dotnet core server instance.",
     path: '/forecasts',
   },
   {
     id: 2,
-    title: 'Customers API',
-    text: "Some quick example text to build on the card title and make up the bulk of the card's content.",
-    path: '/',
+    title: 'Customers API CRUD',
+    text: "Component example performing CRUD operations with customer information data.",
+    path: '/customer',
   },
   {
     id: 3,
     title: 'Counter Local',
-    text: "Some quick example text to build on the card title and make up the bulk of the card's content.",
+    text: "Component example with local state with a counter to add and reset.",
     path: '/counter',
   },
 ];
