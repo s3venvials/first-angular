@@ -1,5 +1,6 @@
 <div class="container">
-  <div class="row row-cols-1 row-cols-md-5 g-4">
+  <h3>Weather Forecast API</h3>
+  <div class="row row-cols-1 row-cols-md-5 g-4" id="weather-content">
     <div *ngFor="let forecast of forecasts">
       <h1 *ngIf="forecast.temperatureF > 90">
         <svg
@@ -36,7 +37,7 @@
         </svg>
       </h1>
       <h5>{{ forecast.date }}</h5>
-      <p>{{ forecast.temperatureF }}</p>
+      <p>{{ forecast.temperatureF }} &#x2109;</p>
     </div>
   </div>
 
