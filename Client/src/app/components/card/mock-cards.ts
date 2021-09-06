@@ -15,7 +15,7 @@ export const CARDS: Card[] = [
   },
   {
     id: 3,
-    title: 'Counter',
+    title: 'Counter Local',
     text: "Some quick example text to build on the card title and make up the bulk of the card's content.",
     path: '/counter',
   },

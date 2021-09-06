@@ -13,8 +13,12 @@ export class CounterComponent implements OnInit {
   ngOnInit(): void {
   }
 
-  counter() {
+  addCounter() {
     return this.count++;
+  }
+
+  resetCounter() {
+    return this.count = 0;
   }
 
 }
